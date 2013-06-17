@@ -9,7 +9,7 @@ public class MainActivity extends DroidGap {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		super.setIntegerProperty ("loadUrlTimeoutValue", 70000);
-		super.loadUrl("file:///android_asset/www/GeoLocation.html");
+		super.loadUrl("file:///android_asset/www/index.html");
 		super.setIntegerProperty ("loadUrlTimeoutValue", 60000);
 	}
 }
